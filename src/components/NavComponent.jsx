@@ -2,8 +2,6 @@ function NavComponent(props) {
   return (
     <div id={props.id}>
       <div className={props.className}>
-        <img className={props.classImage} src={props.src} alt={props.alt} />
-
         <ul>
           <li>
             <a href="#">Home</a>

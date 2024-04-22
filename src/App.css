@@ -22,11 +22,13 @@
 } */
 
 #navBar-style {
-  background-color: aqua;
+  background-image: url("https://plus.unsplash.com/premium_photo-1669839137417-caaf1a4e00a9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   padding-block: 2rem;
   padding-inline: 1rem;
   display: flex;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-style {
@@ -47,7 +49,7 @@
 }
 .containerNavList > ul li > a {
   text-decoration: none;
-  color: inherit;
+  color: yellow;
 }
 
 #inputId {
@@ -55,4 +57,5 @@
   width: 200px;
   border: none;
   padding: 0.5rem;
+  background-color: yellow;
 }
