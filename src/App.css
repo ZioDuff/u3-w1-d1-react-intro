@@ -20,42 +20,70 @@
 #image-style {
   width: 100%;
 } */
-
-#navBar-style {
-  background-image: url("https://plus.unsplash.com/premium_photo-1669839137417-caaf1a4e00a9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  padding-block: 2rem;
-  padding-inline: 1rem;
+/* Qui stilizziamo la nav bar tramite il suo componente */
+.navBar {
+  background-color: rgba(168, 18, 255, 0.849);
+  padding: 1rem;
   display: flex;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
-.image-style {
-  width: 200px;
-  margin-inline-end: 2em;
-}
-.containerNavList {
-  display: flex;
-  align-items: center;
+.logo-container {
   margin-inline-end: auto;
 }
-.containerNavList > ul {
+.logo {
+  width: 100px;
+}
+.nav-list {
   padding: 0;
 }
-.containerNavList > ul li {
+.nav-list li {
   display: inline-block;
-  margin-inline-end: 2em;
+  margin-inline: 1rem;
 }
-.containerNavList > ul li > a {
+.nav-list li a {
   text-decoration: none;
-  color: yellow;
+  color: inherit;
+}
+/* qui finisce la navbar */
+/* qui stilizziamo il container principale  */
+
+.container {
+  display: flex;
 }
 
-#inputId {
-  border-radius: 10px;
-  width: 200px;
-  border: none;
+/* stile delle card */
+.card-style {
+  width: 300px;
+  margin-block-start: 3rem;
   padding: 0.5rem;
-  background-color: yellow;
+  background-color: rgba(168, 18, 255, 0.849);
+}
+.card-style img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card-body {
+  text-align: center;
+}
+.card-body h4,
+p {
+  margin-block: 0.5rem;
+}
+
+.btnBuy {
+  border: none;
+  border-radius: 5px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+
+  font-weight: 700;
+  background-color: rgba(242, 231, 253, 0.63);
+  margin-block: 1rem;
+}
+
+.btnBuy:hover {
+  transform: scale(1.2);
+  background-color: rgb(242, 231, 253);
+  box-shadow: 3px 2px 5px 0px #0589f6a3;
+  text-transform: uppercase;
 }
